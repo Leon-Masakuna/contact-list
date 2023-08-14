@@ -1,0 +1,290 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+div#page {
+    width: 100%;
+    margin: auto;
+    margin-top: -20px;
+    height: 29cm;
+}
+
+div.header {
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 90px;
+    background-color: rgba(60, 143, 221, 0.877);
+}
+
+div.header h3 {
+    font-family: arial;
+    font-size: 30px;
+    color: white;
+}
+
+div#page div.body {
+    display: grid;
+    grid-template-columns: repeat(2, 45% 55%);
+}
+
+div.body div.contact-form div.form {
+    border: 1px solid rgba(60, 143, 221, 0.877);
+    height: 850px;
+}
+
+div#page div.first-part {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+div#page div.second-part {
+    padding-right: 20px;
+}
+
+div.contact-form div.form-title {
+    height: 50px;
+    background-color: rgba(60, 143, 221, 0.877);
+}
+
+div.contact-form div.form-title h4 {
+    padding-top: 15px;
+    font-family: arial;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+div.contact-form div.form {
+    padding-top: 15px;
+    background-color: rgb(226, 231, 236);
+}
+
+div.contact-form div.form-contact {
+    overflow-y: scroll;
+}
+
+form {
+    padding-left: 15px;
+}
+
+form div.img-section {
+    cursor: move;
+    width: 94%;
+    height: 150px;
+    border: 1px dashed rgb(138, 129, 129);
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+label {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-family: arial;
+    font-size: 20px;
+    color: rgba(60, 143, 221, 0.877);
+}
+
+form input {
+    width: 95%;
+    height: 30px;
+    border: 1px solid rgb(226, 231, 236);
+    font-family: arial;
+    font-size: 18px;
+}
+
+form select {
+    width: 95%;
+    height: 35px;
+    border: 1px solid rgb(226, 231, 236);
+}
+
+form select,
+form select option {
+    font-family: arial;
+    font-size: 16px;
+    color: rgba(60, 143, 221, 0.877);
+}
+
+form textarea {
+    width: 95%;
+    height: 100px;
+    border: 1px solid rgb(226, 231, 236);
+    font-family: arial;
+    font-size: 16px;
+}
+
+form div.img-section div.space-to-drop {
+    /* background-color: #2c88d3; */
+    width: 40%;
+    height: 120px;
+    margin-left: 30%;
+}
+
+div.space-to-drop img {
+    margin-top: 15px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+div.space-to-drop img.profile {
+    display: none;
+}
+
+form div.img-section div.space-to-drop p {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    font-family: arial;
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+
+/* form div.img-section div.div-for-link {
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: rgb(140, 154, 168); 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+form div.img-section div.div-for-link input.file-link {
+    display: inline;
+    text-decoration: none;
+    color: rgb(44, 42, 42);
+    font-family: arial;
+    font-size: 16px;
+    padding-top: 0px;
+    width: 290px;
+    height: 40px;
+}
+
+form div.img-section div.div-for-img {
+    display: inline;
+    float: right;
+    border: 1px solid rgb(179, 169, 169);
+    width: 150px;
+    height: 150px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: rgb(135, 140, 145);
+    border-radius: 5px;
+}*/
+
+div.div-for-buttons button {
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    display: inline;
+    font: 18px Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    padding: 7px 25px;
+    text-shadow: 0 1px 1px #000000;
+    /* text-transform: uppercase; */
+}
+
+div.div-for-buttons button.btn-creer {
+    background: #2c88d3;
+}
+
+div.div-for-buttons button.btn-reinit {
+    background: #e95224;
+}
+
+div.div-for-buttons button.btn-edit {
+    background: #62e924;
+    display: none;
+}
+
+div.contact-form div.form div.contact-list {
+    display: grid;
+    grid-template-columns: repeat(2, 25% 75%);
+    border-bottom: 1px solid rgba(60, 143, 221, 0.877);
+    border-right: 1px solid rgba(60, 143, 221, 0.877);
+    /* border-top: 1px solid rgba(60, 143, 221, 0.877); */
+    height: 135px;
+}
+
+div.contact-form div.form div.contact-list div.photo {
+    width: 50px;
+    height: 60px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+
+div.contact-form div.form div.contact-list div.photo img {
+    display: inline;
+    width: 120px;
+    height: 110px;
+    border-radius: 50%;
+    border: 1px solid rgba(60, 143, 221, 0.877);
+}
+
+div.contact-form div.form div.contact-list div.text {
+    margin-right: 25px;
+    padding-top: 5px;
+    color: rgba(9, 58, 104, 0.877);
+}
+
+div.contact-form div.form div.contact-list div.text div.identity {
+    padding-bottom: 10px;
+    font-family: arial;
+    font-size: 14px;
+}
+
+div.contact-form div.form div.contact-list div.text div.phone {
+    padding-bottom: 10px;
+    font-family: arial;
+    font-size: 14px;
+}
+
+div.contact-form div.form div.contact-list div.text div.biography {
+    padding-bottom: 10px;
+    font-family: arial;
+    font-size: 14px;
+    text-align: justify;
+}
+
+p.btn-red {
+    color: red;
+    display: none;
+}
+
+span.update-buttons {
+    float: right;
+}
+
+.update-buttons button#btnDelete {
+    background-image: url(./supp.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 60%;
+}
+
+.update-buttons button#btnUpdate {
+    background-image: url(./modify.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 60%;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>contact-list</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
+  </head>
+
+  <body>
+    <div id="page">
+      <div class="header">
+        <h3>Répertoire de contacts</h3>
+      </div>
+
+      <div class="body">
+        <div class="contact-form first-part">
+          <div class="form-title">
+            <h4>Formulaire de contacts</h4>
+          </div>
+          <div class="form" id="form">
+            <form class="#" action="#">
+              <label for="#">Prénom</label>
+              <input type="text" id="contact-prenom" name="prenom" />
+              <label for="#">Nom</label>
+              <input type="text" id="contact-nom" name="nom" />
+              <label for="#">Téléphone</label>
+              <input type="tel" id="contact-phone" name="telephone" />
+              <label for="#">Groupe</label>
+              <select name="#" id="contact-group">
+                <option></option>
+                <option>Amis</option>
+                <option>Famille</option>
+                <option>Collegue</option>
+              </select>
+              <!-- <input type="text" id="contact-group" name="group"> -->
+              <label for="#">Email</label>
+              <input type="email" id="contact-mail" name="email" />
+              <label for="#">Bio</label>
+              <textarea
+                name="#"
+                id="contact-bio"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <div class="img-section drag-area">
+                <!-- <div>
+                                <div class="div-for-link">
+                                    <input class="file-link" type="file" id="myfile" name="myfile" />
+                                </div>
+                            </div>
+                            <div class="div-for-img ">
+
+                            </div> -->
+                <div class="space-to-drop" id="contact-picture">
+                  <img src="" alt="image" id="profile-photo" class="profile" />
+                  <p class="photo-paragraph">Déplacez la photo ici</p>
+                </div>
+              </div>
+              <div class="div-for-buttons">
+                <button class="btn-edit" type="submit" name="">Modifier</button>
+                <button class="btn-creer" type="submit" name="">Créer</button>
+                <button class="btn-reinit" type="reset" name="">Réinit.</button>
+              </div>
+              <p class="btn-red">Please enter all fields correctly</p>
+            </form>
+          </div>
+        </div>
+        <div class="contact-form second-part">
+          <div class="form-title">
+            <h4>Liste de contacts</h4>
+          </div>
+          <div class="form form-contact">
+            <!-- <div class="contact-list">
+                        <div class="photo">
+                            <img src="mfeng.jpeg" alt="contact profil" />
+                        </div>
+                    </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js "></script>
+  </body>
+</html>
